@@ -10,3 +10,7 @@ Tipos de Tests:
   Prueba el recorrido de una acción.
 - Estrés:
   Prueba para verificar que la aplicación soporte muchas peticiones.
+
+
+- Se debe crear una función de test para cada comprobación.
+- El nombre del método test debe indicar lo que se está probando.
