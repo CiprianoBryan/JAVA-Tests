@@ -12,6 +12,12 @@ Tipos de Tests:
   Prueba para verificar que la aplicación soporte muchas peticiones.
 
 
+Técnica de desarrollo TDD (Test Driven Development)
+- Desarrollo guiado por tests
+- Comenzar escribiendo tests nos ayuda a pensar en el diseño.
+- Si escribir el test es difícil, quizás el diseño no es adecuado.
+
+
 - Con <scope> indicamos que la dependencia se usará en cierto entorno.
   <scope>test<scope> indica que la libreria debe importarse solo cuando se realiza un test y no en el proyecto real.
 - Se debe crear una función de test para cada comprobación.
