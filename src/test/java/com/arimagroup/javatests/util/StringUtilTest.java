@@ -5,8 +5,12 @@ package com.arimagroup.javatests.util;
 public class StringUtilTest {
     public static void main(String[] args) {
         String result = StringUtil.repeat("hola", 3);
-        if (result.equals("holaholahola")) {
-            System.out.println("OK");
+        assertEquals(result, "hola");
+    }
+
+    private static void assertEquals(String actual, String expected) {
+        if (!actual.equals(expected)) {
+            throw new RuntimeException(actual + " is not equal to expected " + expected);
         }
     }
 }

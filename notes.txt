@@ -1,0 +1,12 @@
+Tipos de Tests:
+
+- Unitarios:
+  Prueban una sola clase, una sola función, de manera aislada de toda la aplicación.
+- Integración:
+  Prueban como se conectan diferentes componentes, como a una BD, a una API.
+- Funcionales:
+  Prueban una funcionalidad del sistema, en la que puede que esten implicadas varias clases.
+- Inicio a fin (end to end):
+  Prueba el recorrido de una acción.
+- Estrés:
+  Prueba para verificar que la aplicación soporte muchas peticiones.
