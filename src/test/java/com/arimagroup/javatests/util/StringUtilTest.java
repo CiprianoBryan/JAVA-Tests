@@ -1,16 +1,12 @@
 package com.arimagroup.javatests.util;
 
-//import static org.junit.Assert.*;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class StringUtilTest {
-    public static void main(String[] args) {
-        String result = StringUtil.repeat("hola", 3);
-        assertEquals(result, "hola");
-    }
-
-    private static void assertEquals(String actual, String expected) {
-        if (!actual.equals(expected)) {
-            throw new RuntimeException(actual + " is not equal to expected " + expected);
-        }
+    @Test
+    public void testRepeat() {
+        Assert.assertEquals("holaholahola", StringUtil.repeat("hola", 3));
+        Assert.assertEquals("hola", StringUtil.repeat("hola", 1));
     }
 }
