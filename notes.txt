@@ -12,5 +12,12 @@ Tipos de Tests:
   Prueba para verificar que la aplicación soporte muchas peticiones.
 
 
+- Con <scope> indicamos que la dependencia se usará en cierto entorno.
+  <scope>test<scope> indica que la libreria debe importarse solo cuando se realiza un test y no en el proyecto real.
 - Se debe crear una función de test para cada comprobación.
 - El nombre del método test debe indicar lo que se está probando.
+- Cuando tenemos un caso en la que esperamos que se obtenga un error en específico.
+  Lo podemos indicar en nuestra clase con el parámtro expected.
+  @Test(expected = IllegalArgumentException.class)
+- Mockito: Libreria que nos ayuda a simular clases. Y que podemos especificar que valores nos debe retornar en
+  ciertos casos.
